@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 id="one" style="color: blue; background-color: black;" ></h1>
+    <script>
+        let x=prompt('enter user')
+        if(x.length<=100){
+          document.getElementById('one').innerHTML=x
+        }else{
+            document.getElementById('one').innerHTML='your enter to many characters'
+        }
+    </script>
+</body>
+</html>
